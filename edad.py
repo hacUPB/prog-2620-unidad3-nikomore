@@ -11,18 +11,19 @@ Trata de escribir tu propia versión antes de revisar la solución.'''
 
 edad = int(input("Ingrese su edad: "))
 if edad >= 0 and  edad <= 125: 
-    if edad < 6:
-        etapa = "infancia"
+if edad < 6:
+    etapa = "infancia"
     elif edad < 12:
-        etapa = "Niñez"
+    etapa = "Niñez"
     elif edad < 20:
-        etapa = "Adolecencia"
+     etapa = "Adolecencia"
     elif edad < 25:
     etapa = "Juventud"
          elif edad < 60:
-        etapa = "Adultez"
+    etapa = "Adultez"
     elif edad < 125:
     etapa = "Ancianidad"
 
 else:
     print("El numero ingresado no es una edad valida ")
+ 
